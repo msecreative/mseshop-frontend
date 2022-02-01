@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #4F4F4F;
+}
+
+.font-size-32 {
+  font-size: 32px;
+}
+
+.ms-icon-box {
+  width: 50px;
+  height: 50px;
+}
+
+.slide-bg {
+  background-image: url('../img/hero-bg.png');
+}
+
+.hero-slide ul.slick-dots {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  margin-top: -32.5px
+}
+
+.hero-slide ul.slick-dots button {
+  text-indent: -9999px;
+  background-color: #d1ddd2;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-slide ul.slick-dots li {
+  border-width: 1px;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.hero-slide ul.slick-dots li.slick-active {
+  border-color: #FF5C00;
+}
+
+.hero-slide ul.slick-dots li.slick-active button {
+  background-color: #FF5C00;
+}
+
+.category-carousel .slick-slide > div {
+  margin-right: 35px;
+}
+
+.category-carousel .slick-list {
+  margin-right: -30px !important;
+}
+
+.category-carousel > svg {
+  height: 30px;
+  width: 30px;
+  background-color: #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: 50px;
+  top: -102px;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.category-carousel > svg:last-child {
+  right: 0;
+}
+
+.category-carousel img {
+  max-height: 100%;
+}
+
+.category-carousel > svg:hover {
+  background: #27AE60;
+  color: white;
+}
+
+.promo-bg-1 {
+  background-image: url('../img/promo-bg-1.png');
+}
+.promo-bg-2 {
+  background-image: url('../img/promo-bg-2.png');
+}
+
+.cta-1 {background-color: #fff0dc;}
+.cta-2 {background-color: #ddf1d6;}
+.cta-3 {background-color: #ffebb7;}

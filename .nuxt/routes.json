@@ -1,0 +1,14 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\wamp64\\\\www\\\\laravel\\\\mseshop-frontend\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\wamp64\\\\www\\\\laravel\\\\mseshop-frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
